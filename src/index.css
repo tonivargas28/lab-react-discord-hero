@@ -10,14 +10,12 @@ body {
   height: 100vh;
 }
 
-/* Estilo del contenedor principal */
 .container {
   text-align:left;
   max-width: 600px;
   padding: 20px;
 }
 
-/* Logo y menú */
 .logo {
   position: absolute;
   top: 20px;
@@ -32,7 +30,6 @@ body {
   width: 40px;
 }
 
-/* Estilo del título principal */
 .header-title {
   font-family: 'Poppins', sans-serif;
   font-size: 3rem;
@@ -40,14 +37,12 @@ body {
   margin-bottom: 10px;
 }
 
-/* Estilo del texto descriptivo */
 .description-text {
   font-size: 1.2rem;
   line-height: 1.5;
   margin-bottom: 30px;
 }
 
-/* Botones de acción */
 button{
   flex-wrap: wrap;
   margin: 20px;
@@ -83,13 +78,11 @@ button{
   background-color: #333;
 }
 
-/* Contenedor de la ilustración */
 .illustration-container {
   margin-top: 30px;
   max-width: 100%;
 }
 
-/* Imagen ilustrativa */
 .imagen {
   margin-left:300px;
   max-width: 100%;
