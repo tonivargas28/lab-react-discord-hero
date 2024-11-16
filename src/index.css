@@ -1,17 +1,20 @@
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  background-color: #404FED; /* Color de fondo azul */
-  background-image:url("src\assets\imagenes\discord img.png");
+  background-color: #404FED; 
+  background-image: url("src/assets/imagenes/discord img.png"); 
+  background-size: cover; 
+  background-position: center;
   color: white;
   display: flex;
-  align-items: center;
+  flex-direction: column; 
   
-  height: 100vh;
+  justify-content: center; 
+  height: 100vh; 
 }
 
 .container {
-  text-align:left;
+  text-align: left;
   max-width: 600px;
   padding: 20px;
 }
@@ -20,7 +23,7 @@ body {
   position: absolute;
   top: 20px;
   left: 20px;
-  width:15%;
+  width: 15%;
 }
 
 .menu {
@@ -43,21 +46,26 @@ body {
   margin-bottom: 30px;
 }
 
-button{
+button {
   flex-wrap: wrap;
   margin: 20px;
 }
+
 .button-primary,
 .button-secondary {
-  display: flex;
-  max-width: 50%;
-  padding: 15px 25px;
+  display:felx; 
+  justify-content: center; 
+  align-items: center; 
+  max-width: 100%; 
+  padding: 15px 25px; 
   font-size: 1rem;
-  border-radius: 25px;
-  text-decoration: none;
+  border-radius: 25px; 
+  text-decoration: none; 
   margin: 10px;
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s; 
+  flex-direction:column;
+
 }
 
 .button-primary {
@@ -84,7 +92,9 @@ button{
 }
 
 .imagen {
-  margin-left:300px;
   max-width: 100%;
-  width:100%;
+  width: auto; 
+  margin: 0 auto; 
+  display: block;
+  margin-left:500px;
 }
